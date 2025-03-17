@@ -7,11 +7,9 @@ const Display = () =>{
     return(
         <>
         <div>
-            <label>Name-</label>
-            <p className="output">{name}</p>
+            <p className="output">Name - {name}</p>
             <br></br>
-            <label>Email-</label>
-            <p className="output">{email}</p>
+            <p className="output">Email - {email}</p>
         </div>
         </>
     )

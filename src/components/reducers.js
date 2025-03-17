@@ -1,3 +1,4 @@
+import React from "react";
 const initialState = {name:"",email:""};
 
 const Reducer = (state = initialState,action) =>{

@@ -32,7 +32,7 @@ const InputForm =()=>{
             <br/>
             <label>Email:</label>
             <input
-                type="text"
+                type="email"
                 name="email"
                 value={data.email}
                 placeholder="enter email"

@@ -1,6 +1,7 @@
 import {useDispatch} from "react-redux";
 import { useState } from "react";
 import { UpdateValues } from "./actions";
+import React from "react";
 
 const InputForm =()=>{
     const [data,setData] = useState({

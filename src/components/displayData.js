@@ -1,5 +1,6 @@
 import {useSelector} from "react-redux";
 import React from "react";
+import styles from "./display.module.css";
 
 const Display = () =>{
     const {name,email} = useSelector((state)=>state);
@@ -7,9 +8,10 @@ const Display = () =>{
         <>
         <div>
             <label>Name - </label>
-            <p className="output">{name}</p>
+            <p className={styles.output}>{name}</p>
+            <br></br>
             <label>Email - </label>
-            <p className="output">{email}</p>
+            <p className={styles.output}>{email}</p>
         </div>
         </>
     )

@@ -7,10 +7,10 @@ const Display = () =>{
     return(
         <>
         <div>
-            <label>Name - </label>
+            <label>Name-</label>
             <p className="output">{name}</p>
             <br></br>
-            <label>Email - </label>
+            <label>Email-</label>
             <p className="output">{email}</p>
         </div>
         </>

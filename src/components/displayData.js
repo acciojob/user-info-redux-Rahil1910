@@ -1,4 +1,4 @@
-import {useSelector} from "react-redux";
+`import {useSelector} from "react-redux";
 import React from "react";
 
 const Display = () =>{
@@ -7,9 +7,9 @@ const Display = () =>{
         <>
         <div>
             <label>Name: </label>
-            <p>{name}</p>
+            <p className="output">{name}</p>
             <label>Email:</label>
-            <p>{email}</p>
+            <p className="output">{email}</p>
         </div>
         </>
     )
